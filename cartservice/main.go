@@ -14,7 +14,7 @@ var appname = "cartservice"
 func main() {
 	log.Printf("Server started")
 
-	db, err := gorm.Open("mysql", "")
+	db, err := gorm.Open("mysql", "username:password@tcp(host:port)/database")
 
 	service.DB = *db
 
