@@ -1,0 +1,6 @@
+application:
+  mysql:
+    host:
+    port:
+    username:
+    password:
